@@ -3,16 +3,19 @@
 }
 
 body {
-  background-color: #1f1f1f;
+  margin: 0;
+  padding: 0;
+  background-color: #292929;
   font-family: monospace;
 }
 
 /* NAVIGATION BAR */
 
 .nav-bar {
-  position: fixed;
   overflow: hidden;
-  background-color: #171717
+  background-color: #1C1C1C;
+  margin: -1px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .nav-bar a {
@@ -25,5 +28,15 @@ body {
 }
 
 .nav-bar a:hover {
-  background-color: #1f1f1f;
+  background-color: #313232;
+}
+
+/* MAIN-CONTENT */
+
+.main-content {
+  margin-left: 10%;
+  margin-top: 1%;
+  overflow: hidden;
+  position: static;
+  color: lightgray;
 }
