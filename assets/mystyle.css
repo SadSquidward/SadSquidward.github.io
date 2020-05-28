@@ -1,5 +1,5 @@
 * {
-  
+
 }
 
 body {
@@ -10,6 +10,7 @@ body {
 /* NAVIGATION BAR */
 
 .nav-bar {
+  position: fixed;
   overflow: hidden;
   background-color: #171717
 }
