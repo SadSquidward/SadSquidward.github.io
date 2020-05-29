@@ -1,16 +1,40 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0D1B0C;
+  background-color: #011E00;
   color: #559051;
 }
 
+/* LOADING SCREEN */
+
 .loading-screen {
   background-color: black;
+}
+
+.loading-screen img {
+  width: 700px;
   position: absolute;
-  width: 80px;
-  height: 17px;
   left: 50%;
-  top: 50%;
-  margin: -8.5 0 0 -40;
+  top: 15%;
+  margin: 0 0 0 -350;
+}
+
+/* LOADING BAR */
+
+.loading-bar {
+  width: 34%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0DFC61;
+
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  margin: 0 0 0 -17%;
+}
+
+#bar {
+  width: 1%;
+  height: 20px;
+  background-color: #0DFC61;
 }
