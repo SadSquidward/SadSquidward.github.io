@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0D1B0C;
+  font-family: monospace;
+  color: #559051;
+}
+
+.loading-screen {
+  background-color: black;
+  position: absolute;
+  width: 80px;
+  height: 17px;
+  left: 50%;
+  top: 50%;
+  margin: -8.5 0 0 -40;
+}
