@@ -2,21 +2,20 @@ body {
   margin: 0;
   padding: 0;
   background-color: #011E00;
-  color: #559051;
+  color: #0DFC61;
 }
 
 /* LOADING SCREEN */
 
-.loading-screen {
-  background-color: black;
-}
-
-.loading-screen img {
+.loading-screen p {
   width: 700px;
   position: absolute;
   left: 50%;
   top: 15%;
   margin: 0 0 0 -350;
+  font-family: 'VT323', monospace;
+  font-size: 159px;
+  font-style: italic;
 }
 
 /* LOADING BAR */
