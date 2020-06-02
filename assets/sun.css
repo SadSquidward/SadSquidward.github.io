@@ -1,0 +1,26 @@
+body {
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+  background-color: #011E00;
+  color: #0DFC61;
+  font-family: 'VT323', monospace;
+}
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  background-color: #0DFC61;
+  box-shadow: 0px 1px 3px #aaffaa;
+  font-size: 20px;
+}
+
+.nav-bar a {
+
+}
+
+/* MAIN-CONTENT */
