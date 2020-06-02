@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -6,26 +7,33 @@
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
   <title>Solar System</title>
 </head>
-<body>
+
+<body onload="move()">
   <div class="loading-screen">
-    <!-- <img src="./images/sevastolink.jpg"> -->
-    <p>SEVASTOLINK</p>
+    <p class="title">SEVASTOLINK</p>
+    <p class="subtitle">AN LM-LINK PRODUCT</p>
   </div>
-  <div class="loading-bar">
-    <div class="bar"></div>
+  <div class="footer">
+    <div id="loading-bar">
+      <div id="bar"></div>
+    </div>
+    <p class="description">(C) LM-LINK DATA SYSTEMS</p>
   </div>
-  <!-- <button onclick="move()">Click Me</button> -->
-  <!-- <script>
+  <script>
     var i = 0;
+
     function move() {
       if (i == 0) {
-        var elem = document.getElementsByClassName("bar");
+        i = 1;
+        var elem = document.getElementById("bar");
         var width = 1;
-        var id = setInterval(frame, 10);
-        function frame () {
+        var id = setInterval(frame, 30);
+
+        function frame() {
           if (width >= 100) {
             clearInterval(id);
             i = 0;
+            window.location.href = "overview.html";
           } else {
             width++;
             elem.style.width = width + "%";
@@ -33,6 +41,7 @@
         }
       }
     }
-  </script> -->
+  </script>
 </body>
+
 </html>
