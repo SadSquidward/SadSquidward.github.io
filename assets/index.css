@@ -21,7 +21,7 @@ body {
   margin: 0;
   font-size: 159px;
   font-style: italic;
-  -webkit-filter: blur(.2px);
+  -webkit-filter: blur(.1px);
   text-shadow: 0 0 5px #22ff22, 0 0 5px #aaffaa;
 }
 
