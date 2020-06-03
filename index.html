@@ -20,27 +20,29 @@
     <p class="description">(C) LM-LINK DATA SYSTEMS</p>
   </div>
   <script>
-    var i = 0;
+  var i = 0;
 
-    function move() {
-      if (i == 0) {
-        i = 1;
-        var elem = document.getElementById("bar");
-        var width = 1;
-        var id = setInterval(frame, 20);
+  function move() {
+    if (i == 0) {
+      i = 1;
+      var elem = document.getElementById("bar");
+      var width = 1;
+      var id = setInterval(frame, 10);
 
-        function frame() {
-          if (width >= 100) {
-            clearInterval(id);
-            i = 0;
-            // window.location.href = "overview.html";
-          } else {
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+          i = 0;
+          window.location.href = "overview.html";
+        } else {
+          if (Math.floor(Math.random() * 10) > 6) {
             width++;
             elem.style.width = width + "%";
           }
         }
       }
     }
+  }
   </script>
 </body>
 
