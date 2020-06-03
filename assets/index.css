@@ -4,6 +4,10 @@ body {
   background-color: #011E00;
   color: #0DFC61;
   font-family: 'VT323', monospace;
+  
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ and Edge */
+  user-select: none; /* Standard syntax */
 }
 
 /* LOADING SCREEN */
